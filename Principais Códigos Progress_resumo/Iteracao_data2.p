@@ -1,0 +1,9 @@
+// Iterando datas:
+
+DEFINE VARIABLE dat AS DATE NO-UNDO.
+
+DO dat = TODAY TO TODAY + 3:
+
+    DISPLAY dat FORMAT "9999/99/99".
+
+END.
